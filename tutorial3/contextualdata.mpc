@@ -1,0 +1,9 @@
+// contextualdata.mpc
+project (contextualdata) : oasis_pintool {
+  sharedname = contextualdata
+  includes += $(PINPP_ROOT)
+  install = .
+  Source_Files {
+    contextualdata.cpp
+  }
+}

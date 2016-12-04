@@ -1,0 +1,9 @@
+// hextraarg.mpc
+project (hextraarg) : oasis_pintool {
+  sharedname = hextraarg
+  includes += $(PINPP_ROOT)
+  install = .
+  Source_Files {
+    hextraarg.cpp
+  }
+}

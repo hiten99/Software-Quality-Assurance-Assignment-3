@@ -1,0 +1,9 @@
+// hcallback.mpc
+project (hcallback) : oasis_pintool {
+  sharedname = hcallback
+  includes += $(PINPP_ROOT)
+  install = .
+  Source_Files {
+    hcallback.cpp
+  }
+}

@@ -1,0 +1,4 @@
+// pintool.mwc
+workspace {
+  cmdline += -include $PINPP_ROOT/MPC/config
+}

@@ -1,0 +1,9 @@
+// hinscount0.mpc
+project (hinscount0) : oasis_pintool {
+  sharedname = hinscount0
+  includes += $(PINPP_ROOT)
+  install = .
+  Source_Files {
+    hinscount0.cpp
+  }
+}
